@@ -25,10 +25,6 @@ lvim.keys.normal_mode["<leader>ff"] = builtin.find_files
 lvim.keys.normal_mode["<leader>fg"] = builtin.live_grep
 lvim.keys.normal_mode["<leader>fb"] = builtin.buffers
 lvim.keys.normal_mode["<leader>fh"] = builtin.help_tags
--- vim.keymap.set("n", "<leader>ff", builtin.find_files, {})
--- vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
--- vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
--- vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 
 -- plugins
 lvim.plugins = {
