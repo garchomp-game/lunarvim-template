@@ -15,7 +15,7 @@ lvim.keys.visual_mode["<"] = false
 -- builtinで既存のプラグインの有効/無効、及びconfig内の調整ができる
 -- activeで有効/向こうの切り替え、on_config_doneで追加の設定もしくは変更
 lvim.builtin.bufferline.active = false
-lvim.colorscheme = "lunaperche"
+lvim.colorscheme = "lunar"
 lvim.leader = "\\"
 lvim.format_on_save.enabled = true
 
