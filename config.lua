@@ -9,7 +9,7 @@ lvim.keys.visual_mode["<"] = false
 -- >も同様に
 lvim.keys.visual_mode[">"] = false
 
--- telescopeの場合少し特殊で、、telescole.builtinをrequireして使う
+-- telescopeの場合少し特殊で、telescole.builtinをrequireして使う
 local builtin = require("telescope.builtin")
 lvim.keys.normal_mode["<leader>ff"] = builtin.find_files
 lvim.keys.normal_mode["<leader>fg"] = builtin.live_grep
